@@ -2,6 +2,8 @@
 local ffi = require'ffi'
 local time = require'time'
 
+if ... then return end --prevent loading as module
+
 io.stdout:setvbuf'no'
 io.stderr:setvbuf'no'
 
